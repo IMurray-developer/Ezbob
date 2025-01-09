@@ -1,0 +1,45 @@
+.autocomplete-list {
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    max-height: 300px;
+    margin-top: 2px;
+    padding-bottom: 10px;
+    padding-left: 0;
+}
+
+.autocomplete-list li {
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+.autocomplete-list li:hover {
+    background-color: #f1f3f4;
+}
+
+.autocomplete-list li .search-icon {
+    margin-right: 20px;
+    display: block;
+}
+
+.autocomplete-list li.visited {
+    color: #52188c;
+}
+
+.autocomplete-list li strong {
+    font-weight: bold;
+}
+
+.remove-button {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.remove-button:hover {
+    text-decoration: underline;
+    color: #1a0dab;
+}
